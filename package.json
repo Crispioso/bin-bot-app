@@ -1,0 +1,29 @@
+{
+  "name": "bin-bot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build-env": "node envBuild.js",
+    "dev": "yarn build-env env && next dev",
+    "build": "yarn build-env env && next build",
+    "start": "yarn build-env env && next start"
+  },
+  "dependencies": {
+    "babel-plugin-idx": "^2.4.0",
+    "firebase": "^7.6.1",
+    "grommet": "^2.9.0",
+    "grommet-icons": "^4.4.0",
+    "idx": "^2.5.6",
+    "next": "9.1.6",
+    "nookies": "^2.0.8",
+    "polished": "^3.4.2",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.17",
+    "typescript": "^3.7.4"
+  }
+}
